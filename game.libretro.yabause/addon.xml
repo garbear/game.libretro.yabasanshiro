@@ -14,18 +14,19 @@
                library_wingl="game.libretro.yabause.dll">
         <platforms>Sega Saturn</platforms>
         <extensions>bin|cue</extensions>
-        <allowvfs>false</allowvfs>
-        <blockextract>false</blockextract>
+        <supports_vfs>false</supports_vfs>
+        <supports_no_game>false</supports_no_game>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Yabause v0.9.12</summary>
         <description>Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
 
-        Supported files: .bin, .cue
+Supported files: .bin, .cue
 
-        Icon credit: Anarkhya (anarkhya.deviantart.com)
+Icon credit: Anarkhya (anarkhya.deviantart.com)
 
-        Source: https://github.com/libretro/yabause</description>
+License: GPLv2</description>
         <platform>all</platform>
+        <nofanart>true</nofanart>
     </extension>
 </addon>
