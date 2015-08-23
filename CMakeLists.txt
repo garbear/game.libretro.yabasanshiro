@@ -2,42 +2,14 @@ project(game.libretro.yabause)
 
 cmake_minimum_required(VERSION 2.6)
 
+list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
+
 find_package(kodi REQUIRED)
+find_package(yabause REQUIRED)
 
-if(CMAKE_BUILD_TYPE MATCHES Debug)
-  set(LIBRETRO_DEBUG DEBUG=1)
-endif()
-
-if("${CORE_SYSTEM_NAME}" STREQUAL "windows")
-  set(BUILD_COMMAND mingw32-make -C libretro platform=win ${LIBRETRO_DEBUG})
-elseif("${CORE_SYSTEM_NAME}" STREQUAL "linux")
-  set(BUILD_COMMAND make -C libretro ${LIBRETRO_DEBUG})
-elseif("${CORE_SYSTEM_NAME}" STREQUAL "darwin")
-  set(BUILD_COMMAND make -C libretro platform=osx ${LIBRETRO_DEBUG})
-elseif("${CORE_SYSTEM_NAME}" STREQUAL "ios")
-  # TODO
-elseif("${CORE_SYSTEM_NAME}" STREQUAL "android")
-  # TODO
-elseif("${CORE_SYSTEM_NAME}" STREQUAL "rbpi")
-  # TODO
-elseif("${CORE_SYSTEM_NAME}" STREQUAL "freebsd")
-# TODO
-endif()
-
-include(ExternalProject)
-externalproject_add(yabause
-                    GIT_REPOSITORY https://github.com/libretro/yabause
-                    GIT_TAG 4e47c6c
-                    PREFIX yabause
-                    CONFIGURE_COMMAND ""
-                    INSTALL_COMMAND ""
-                    BUILD_COMMAND ${BUILD_COMMAND}
-                    BUILD_IN_SOURCE 1)
-
-set(YABAUSE_CUSTOM_BINARY ${PROJECT_BINARY_DIR}/yabause/src/yabause/libretro/yabause_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
+set(DEPLIBS yabause)
+set(YABAUSE_CUSTOM_BINARY ${YABAUSE_LIB}
                           game.libretro.yabause${CMAKE_SHARED_LIBRARY_SUFFIX} yabause)
 
 build_addon(game.libretro.yabause YABAUSE DEPLIBS)
-add_dependencies(game.libretro.yabause yabause)
 
-include(CPack)
