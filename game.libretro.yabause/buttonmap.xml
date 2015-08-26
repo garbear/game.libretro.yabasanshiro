@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buttonmap>
-	<controller id="game.controller.genesis" type="joypad">
+	<controller id="game.controller.genesis" type="analog">
 		<feature name="a" mapto="y"/>
 		<feature name="b" mapto="b"/>
 		<feature name="c" mapto="a"/>
