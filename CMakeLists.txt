@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 2.6)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 find_package(kodi REQUIRED)
-find_package(yabause REQUIRED)
+find_package(libretro-yabause REQUIRED)
 
 set(DEPLIBS yabause)
 set(YABAUSE_CUSTOM_BINARY ${YABAUSE_LIB}

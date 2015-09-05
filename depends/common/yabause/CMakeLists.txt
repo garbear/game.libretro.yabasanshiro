@@ -44,4 +44,4 @@ install(FILES ${PROJECT_SOURCE_DIR}/libretro/yabause_libretro${CMAKE_SHARED_LIBR
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
 # write the yabause-config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/yabause-config.cmake "set(YABAUSE_LIB ${CMAKE_INSTALL_PREFIX}/lib/yabause_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
+file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-yabause-config.cmake "set(YABAUSE_LIB ${CMAKE_INSTALL_PREFIX}/lib/yabause_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
