@@ -1,1 +1,1 @@
-yabause https://github.com/libretro/yabause 0519d1b
+yabause https://github.com/libretro/yabause master
