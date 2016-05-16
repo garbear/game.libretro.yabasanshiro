@@ -7,11 +7,7 @@
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
     <extension point="kodi.gameclient"
-               library_android="libgame.libretro.yabause.so"
-               library_linux="game.libretro.yabause.so"
-               library_osx="game.libretro.yabause.dylib"
-               library_windx="game.libretro.yabause.dll"
-               library_wingl="game.libretro.yabause.dll">
+               library_@PLATFORM@="@LIBRARY_FILENAME@">
         <platforms>Sega Saturn</platforms>
         <extensions>bin|cue|iso</extensions>
         <supports_vfs>false</supports_vfs>
@@ -26,7 +22,7 @@ Supported files: .bin, .cue, .iso
 Icon credit: Anarkhya (anarkhya.deviantart.com)
 
 License: GPLv2</description>
-        <platform>all</platform>
+        <platform>@PLATFORM@</platform>
         <nofanart>true</nofanart>
     </extension>
 </addon>
