@@ -1,6 +1,5 @@
+cmake_minimum_required(VERSION 3.1)
 project(game.libretro.yabause)
-
-cmake_minimum_required(VERSION 2.6)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
@@ -9,7 +8,6 @@ find_package(libretro-yabause REQUIRED)
 
 set(DEPLIBS yabause)
 set(YABAUSE_CUSTOM_BINARY ${YABAUSE_LIB}
-                          game.libretro.yabause${CMAKE_SHARED_LIBRARY_SUFFIX} yabause)
+                          ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
 
-build_addon(game.libretro.yabause YABAUSE DEPLIBS)
-
+build_addon(${PROJECT_NAME} YABAUSE DEPLIBS)
