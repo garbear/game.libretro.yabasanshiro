@@ -16,14 +16,12 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Sega Saturn (Yabause) v0.9.14</summary>
+		<summary lang="en">Sega Saturn (Yabause) v0.9.14 c618ba8</summary>
 		<description>Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
 
 Supported files: .bin, .cue, .iso
 
-Icon credit: Anarkhya (anarkhya.deviantart.com)
-
-License: GPLv2</description>
+Icon credit: Anarkhya (anarkhya.deviantart.com)</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
