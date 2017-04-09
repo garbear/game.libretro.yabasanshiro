@@ -19,9 +19,9 @@
 		<summary lang="en">Sega Saturn (Yabause) v0.9.14</summary>
 		<description>Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
 
-Supported files: .bin, .cue, .iso
+Icon credit: Anarkhya (anarkhya.deviantart.com)
 
-Icon credit: Anarkhya (anarkhya.deviantart.com)</description>
+Supported files: .bin, .cue, .iso</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
