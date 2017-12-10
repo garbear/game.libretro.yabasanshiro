@@ -9,19 +9,17 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Sega Saturn</platforms>
-		<extensions>bin|cue|iso</extensions>
+		<extensions></extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Sega Saturn (Yabause) v0.9.14</summary>
+		<summary lang="en">Sega Saturn (Yabause)</summary>
 		<description>Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
 
-Icon credit: Anarkhya (anarkhya.deviantart.com)
-
-Supported files: .bin, .cue, .iso</description>
+Icon credit: Anarkhya (anarkhya.deviantart.com)</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
