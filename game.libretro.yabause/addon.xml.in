@@ -25,6 +25,7 @@ Icon credit: Anarkhya (anarkhya.deviantart.com)
 Supported files: .bin, .cue, .iso</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.yabause</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
