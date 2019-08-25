@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.yabause"
 		name="Sega - Saturn (Yabause)"
-		version="0.9.14.2"
+		version="0.9.14.3"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -11,7 +11,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Sega Saturn</platforms>
-		<extensions>bin|cue|iso</extensions>
+		<extensions>cue|iso|mds|ccd|chd</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 	</extension>
@@ -21,7 +21,7 @@
 
 Icon credit: Anarkhya (anarkhya.deviantart.com)
 
-Supported files: .bin, .cue, .iso</description>
+Supported files: .cue, .iso, .mds, .ccd, .chd</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.yabause</source>
