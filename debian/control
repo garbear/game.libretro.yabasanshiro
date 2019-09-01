@@ -4,7 +4,7 @@ Maintainer: wsnipex <wsnipex@a1.net>
 Build-Depends: debhelper (>= 9.0.0),
                cmake,
                kodi-addon-dev,
-               libretro-yabause (>= 0.9.14) | yabause (>= 0.9.14)
+               libretro-yabause (>= 0.9.15) | yabause (>= 0.9.15)
 Standards-Version: 3.9.8
 Section: libs
 
