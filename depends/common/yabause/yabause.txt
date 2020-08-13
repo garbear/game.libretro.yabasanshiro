@@ -1,1 +1,1 @@
-yabause https://github.com/libretro/yabause/archive/9be109f9032afa793d2a79b837c4cc232cea5929.zip
+yabause https://github.com/libretro/yabause/archive/f515e5a49336195c61b751e539aadae72fbe0aa7.zip
