@@ -26,11 +26,11 @@ msgid "Frameskip"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Force HLE BIOS"
+msgid "Force HLE BIOS (Restart Required)"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Addon Cartridge"
+msgid "Addon Cartridge (Restart Required)"
 msgstr ""
 
 msgctxt "#30004"
@@ -42,5 +42,5 @@ msgid "6Player Adaptor on Port 2"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Number of Threads"
+msgid "Number of Threads (Restart Required)"
 msgstr ""
