@@ -22,11 +22,7 @@ msgid "Sega - Saturn (Yabause) v0.9.15"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
-
-Icon credit: Anarkhya (anarkhya.deviantart.com)
-
-Supported files: .cue, .iso, .mds, .ccd, .zip, .chd, .m3u"
+msgid "Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.Icon credit: Anarkhya (anarkhya.deviantart.com)Supported files: .cue, .iso, .mds, .ccd, .zip, .chd, .m3u"
 msgstr ""
 
 msgctxt "#30000"
