@@ -16,10 +16,6 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-
-Icon credit: Anarkhya (anarkhya.deviantart.com)
-
-Supported files: .cue, .iso, .mds, .ccd, .zip, .chd, .m3u</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.yabause</source>
@@ -27,10 +23,7 @@ Supported files: .cue, .iso, .mds, .ccd, .zip, .chd, .m3u</description>
 			<icon>resources/icon.png</icon>
 		</assets>
 		<summary lang="en_GB">Sega - Saturn (Yabause) v0.9.15</summary>
-		<description lang="en_GB">Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
-
-Icon credit: Anarkhya (anarkhya.deviantart.com)
-
-Supported files: .cue, .iso, .mds, .ccd, .zip, .chd, .m3u</description>
+		<description lang="en_GB">Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.</description>
+		<disclaimer>Icon credit: Anarkhya (anarkhya.deviantart.com)</disclaimer>
 	</extension>
 </addon>
