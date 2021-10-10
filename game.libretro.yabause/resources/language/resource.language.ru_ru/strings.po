@@ -25,6 +25,10 @@ msgctxt "Addon Description"
 msgid "Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable."
 msgstr ""
 
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: Anarkhya (anarkhya.deviantart.com)"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr "Настройки"
