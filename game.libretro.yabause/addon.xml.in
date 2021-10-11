@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.yabause"
 		name="Sega - Saturn (Yabause)"
-		version="0.9.15.26"
+		version="0.9.15.27"
 		provider-name="Guillaume Duhammel, Theo Berkau, Anders Montonen">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -23,7 +23,6 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<summary lang="da_DK">Sega - Saturn (Yabause) v0.9.15</summary>
 		<summary lang="en_GB">Sega - Saturn (Yabause) v0.9.15</summary>
 		<description lang="da_DK">Yabause står for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause kan starte Sega Saturn bios og spil, hvoraf nogle kan spilles.</description>
 		<description lang="en_GB">Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.</description>
