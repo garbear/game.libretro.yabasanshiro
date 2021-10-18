@@ -1,6 +1,13 @@
-# game.libretro.yabause addon for Kodi
-
-This is a [Kodi](http://kodi.tv) game addon for Sega - Saturn (Yabause).
-
 [![Build Status](https://travis-ci.org/kodi-game/game.libretro.yabause.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.yabause)
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.yabause?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-yabause)
+
+# Sega - Saturn (Yabause)
+
+### Description
+Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
+
+### Artwork
+
+![Icon](game.libretro.yabause/resources/icon.png)
+
+You can view a list of Libretro cores that have been ported to Kodi at the [Game add-ons - Libretro cores](https://kodi.wiki/view/Game_add-ons#Libretro_cores) wiki article.
