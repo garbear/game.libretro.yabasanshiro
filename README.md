@@ -6,7 +6,7 @@
 ### Description
 Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
 
-### Artwork
+### Icon
 
 ![Icon](game.libretro.yabause/resources/icon.png)
 
