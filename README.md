@@ -6,8 +6,15 @@
 ### Description
 Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.
 
+### License
+GPLv2
+
 ### Icon
 
 ![Icon](game.libretro.yabause/resources/icon.png)
 
-You can view a list of Libretro cores that have been ported to Kodi at the [Game add-ons - Libretro cores](https://kodi.wiki/view/Game_add-ons#Libretro_cores) wiki article.
+
+### Disclaimer
+
+*Icon credit: Anarkhya (anarkhya.deviantart.com)*
+
