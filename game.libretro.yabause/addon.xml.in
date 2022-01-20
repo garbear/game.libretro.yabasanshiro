@@ -29,5 +29,6 @@
 		<description lang="en_GB">Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.</description>
 		<disclaimer lang="da_DK">Billedkreditering: Anarkhya (anarkhya.deviantart.com)</disclaimer>
 		<disclaimer lang="en_GB">Icon credit: Anarkhya (anarkhya.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: Anarkhya(anarkhya.deviantart.com)</disclaimer>
 	</extension>
 </addon>
