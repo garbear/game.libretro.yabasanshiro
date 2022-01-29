@@ -42,8 +42,8 @@ msgid "Force HLE BIOS (Restart Required)"
 msgstr "Gennemtving HLE BIOS (kræver genstart)"
 
 msgctxt "#30003"
-msgid "Addon Cartridge (Restart Required)"
-msgstr "Add-on-patron (genstart påkrævet)"
+msgid "Add-on Cartridge (Restart Required)"
+msgstr ""
 
 msgctxt "#30004"
 msgid "6Player Adaptor on Port 1"
@@ -56,3 +56,7 @@ msgstr "6-spiller adaptor på port 2"
 msgctxt "#30006"
 msgid "Number of Threads (Restart Required)"
 msgstr "Antal af tråde (genstart påkrævet)"
+
+#~ msgctxt "#30003"
+#~ msgid "Addon Cartridge (Restart Required)"
+#~ msgstr "Add-on-patron (genstart påkrævet)"

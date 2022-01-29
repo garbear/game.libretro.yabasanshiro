@@ -41,7 +41,7 @@ msgid "Force HLE BIOS (Restart Required)"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Addon Cartridge (Restart Required)"
+msgid "Add-on Cartridge (Restart Required)"
 msgstr ""
 
 msgctxt "#30004"
