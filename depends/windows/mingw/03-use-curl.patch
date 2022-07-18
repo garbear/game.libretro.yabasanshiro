@@ -4,6 +4,6 @@
  HoldPkg     = pacman
  #XferCommand = /usr/bin/curl -L -C - -f -o %o %u
  #XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
-+XferCommand = /usr/bin/curl -k --retry 5 -L -C - -f %u > %o
++XferCommand = /usr/bin/curl -k --retry 5 -L -C - -f -o %o %u
  #CleanMethod = KeepInstalled
  Architecture = auto
