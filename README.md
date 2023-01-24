@@ -13,7 +13,7 @@ GPLv2
 
 ### Icon
 
-![Icon](game.libretro.yabause/resources/icon.png)
+![Sega - Saturn (Yabause) icon](game.libretro.yabause/resources/icon.png)
 
 ### Fanart
 
