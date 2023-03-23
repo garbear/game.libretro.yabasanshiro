@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.15\n"
 
 msgctxt "Addon Summary"
-msgid "Sega - Saturn (Yabause) v0.9.15"
+msgid "Sega - Saturn (Yabause)"
 msgstr ""
 
 msgctxt "Addon Description"
