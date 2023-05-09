@@ -23,6 +23,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<summary lang="da_DK">Sega - Saturn (Yabause)</summary>
 		<summary lang="en_GB">Sega - Saturn (Yabause)</summary>
 		<summary lang="es_ES">Sega - Saturn (Yabause)</summary>
 		<description lang="da_DK">Yabause står for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause kan starte Sega Saturn bios og spil, hvoraf nogle kan spilles.</description>
